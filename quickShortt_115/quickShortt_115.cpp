@@ -56,4 +56,13 @@ void q_short(int low, int high)
 	j = high;							//Langkah Algoritma NO.4
 
 
+	while (i <= j)						//Langkah Algoritma No.5
+	{
+		//search for an element less than or equal to pivot 
+		while ((arr[i] <= pivot) && (i <= high))	//Langkah Algoritma No. 6
+		{
+			i++;
+			cmp_count++;
+		}
+		cmp_count++;
 
