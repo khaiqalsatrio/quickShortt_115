@@ -74,3 +74,11 @@ void q_short(int low, int high)
 		}
 		cmp_count++;
 
+		// if the greater element is on the left of the element
+		if (i < j)
+		{
+			//swap the element at index i whit the element at index j
+			swap(i, j);
+			mov_count++;
+		}
+
